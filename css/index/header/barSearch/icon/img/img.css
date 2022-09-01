@@ -1,0 +1,15 @@
+#header__barSearch__icon__img{
+    background-image: url(../../../../../../src/img/search-icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1.5em;
+    height: 1.5rem;
+}
+
+@media  only screen and (min-width: 600px) {
+    #header__logo {
+        width: 3rem;
+        height: 3rem;
+    }
+}

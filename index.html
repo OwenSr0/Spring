@@ -5,16 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tittle</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/root.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/index/body.css">
+    <link rel="stylesheet" href="./css/index/header.css">
+
+    <link rel="stylesheet" href="./css/index/header/logo.css">
+    <link rel="stylesheet" href="./css/index/header/logo/img.css">
+
+    <link rel="stylesheet" href="./css/index/header/barSearch.css">
+    <link rel="stylesheet" href="./css/index/header/barSearch/textArea/textArea.css">
+    <link rel="stylesheet" href="./css/index/header/barSearch/icon/icon.css">
+    <link rel="stylesheet" href="./css/index/header/barSearch/icon/img/img.css">
+
+    <link rel="stylesheet" href="./css/index/header/buttons.css">
+    <link rel="stylesheet" href="./css/index/header/buttons/login.css">
+    <link rel="stylesheet" href="./css/index/header/buttons/register.css">
 </head>
 <body class="body">
     <header class="header">
         <div class="header__logo">
-            <div class="header__logo___img"></div>
+            <div id="header__logo___img"></div>
         </div>
         <nav class="header__barSearch">
-
+            <textarea class="header__barSearch__textArea" placeholder="¿Què desèas buscar?" name="" id="" cols="30" rows="10"></textarea>
+            <div class="header__barSearch__icon">
+                <div id="header__barSearch__icon__img"></div>
+            </div>
         </nav>
-        <button class="header__login"></button>
+        <div class="header__buttons">
+            <button class="header__buttons__login"><p>Login</p></button>
+            <button class="header__buttons__register"><p></p>Register</button>
+        </div>
     </header>
 </body>
 </html>

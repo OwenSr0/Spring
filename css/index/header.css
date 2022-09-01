@@ -1,0 +1,8 @@
+.header{
+    background-color: #fff;
+    gap: 10px;
+    display: inherit;
+    justify-content: space-between;
+    border-bottom: 10px gray;
+    margin-bottom: 1rem;
+}

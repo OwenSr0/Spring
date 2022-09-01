@@ -1,0 +1,9 @@
+.header__barSearch__textArea{
+    display: none;
+    height: 1.1rem;
+    width: 8rem;
+    font-size: small;
+    text-align: center;
+    border: 1px solid #D8D8D8;
+    border-radius: 0.5rem;
+}

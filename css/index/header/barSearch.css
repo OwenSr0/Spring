@@ -1,0 +1,5 @@
+.header__barSearch{
+    order: 1;
+    display: flex;
+    align-items: center; 
+}
